@@ -3,15 +3,19 @@ class Frog {
     private int age;
     
     public void setName(String name) {
-        this.name = name;
+        this.name = name; 
+        // name parameter variable masked the name instance variable
+        // that's why this kw used to refer to the instance variable
     }
     
     public void setAge(int age) {
-        this.age = age;
+        this.age = age; 
+        // this kw is a reference to the object/instance we are in
+        // this.age = frog1.age (ama frog1.age sadece main method'da kullanılabilir)
     }
     
     public String getName() {
-        return name;
+        return name; // this kw is unnecessary
     }
     
     public int getAge() {
@@ -19,7 +23,7 @@ class Frog {
     }
     
     public void setInfo(String name, int age) {
-        setName(name);
+        setName(name); // this kw is unnecessary
         setAge(age);
     }
 }
