@@ -19,7 +19,7 @@ class Thing {
     
     public void showName() {
         System.out.println("Object id: " + id + ", " + description + ": " + name + ", count: " + count);
-        // count, static olduğu için 2 olarak output edilir
+        // count, static olduğu için her zaman son değer olan 2 olarak output edilir
         // instance methods can access static variables
     }
     
