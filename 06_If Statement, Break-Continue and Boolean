@@ -1,8 +1,20 @@
 public class Java {
     public static void main(String[] args) {
         
+    	int a = 5;
+		boolean b = a < 10; // boolean b = true da denebilirdi
+		if (b) { // if (b = a < 10)  veya if (b = true) da denebilirdi 
+			// ilk sağlanan condition olduğu için bu condition sağlanır
+			// if (!b) {...} dense idi if (b!=true){...} anlamına gelecekti 
+			System.out.println("it is " + b);
+		} else if (a < 15) {
+			System.out.println("it is false");
+		} else {
+			System.out.println("none above");
+		}
         // Some useful conditions:
-    	boolean test = 7 <= 6;
+    	boolean test = 7 <= 6; // mathematical operations olan += veya -= ile karıştırma
+    	// = ile variable için assignment yapılırken, == ile testing gerçekleştirilir
     	System.out.println(test);
         System.out.println(5 == 5);
         System.out.println(10 != 11);
@@ -29,6 +41,8 @@ public class Java {
             loop++;
         
             System.out.println("Running");
+            
+            
         }
     }
 }
