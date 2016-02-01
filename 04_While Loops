@@ -1,5 +1,6 @@
 public class Java {
     public static void main(String[] args) {
+    
         int value = 0; // local variable is initialized
         while(value < 10) // condition of variable
         {
