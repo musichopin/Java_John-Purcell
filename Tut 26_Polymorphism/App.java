@@ -32,7 +32,8 @@ public class App {
 		doGrow(tree);
 	}
 
-	public static void doGrow(Plant plant) {
+	public static void doGrow(Plant plant) { 
+		// Tree plant de dense sonuç deðiþmezdi
 		plant.grow();
 	}
 

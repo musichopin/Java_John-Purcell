@@ -48,7 +48,7 @@ public class App {
     public static void showList(ArrayList<? extends Machine> list) {
         for (Machine value : list) {
             System.out.println(value);
-            value.start();
+            value.start(); // value variable, start() ise method 
         }
 
     }
