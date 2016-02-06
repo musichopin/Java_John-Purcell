@@ -22,6 +22,7 @@ public class Java {
         // (normal) for loop ile array hem print edilebilir hem de initialize/assign edilebilirdi
         for(String fruit: fruits) {
             System.out.println(fruit);
+            System.out.println(fruit.length());
         }
         
         // "Default" value for an integer
