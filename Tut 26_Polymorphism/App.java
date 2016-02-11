@@ -11,6 +11,8 @@ public class App {
 		// plant1 reference variable refers to an object of type Plant
 		// plant 3 reference variable refers to the same object plant 1 refers to
 		
+		// polymorphism hem inheritance'da hem de interface'de olabilir
+		
 		// Polymorphism (many phases) guarantees that we can use a child class
 		// wherever a parent class is expected.
 		Plant plant2 = tree; // Plant plant2 = new Tree();

@@ -10,6 +10,7 @@ public class App {
         Person person1 = new Person("Bob");
         person1.greet();
         
+        // polymorphism yapýlmýþ
         Info info1 = new Machine();
         // if machine class didnt implement info interface we wouldnt do this
         // info1 is a variable of type info pointing to an object of type machine (machine object)

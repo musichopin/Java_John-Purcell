@@ -6,8 +6,10 @@ public class Machine implements Info {
     public void start() {
         System.out.println("Machine started.");
     }
-
+    
     public void showInfo() { // we are forced to write the method we implement
         System.out.println("Machine ID is: " + id);
     }
+    // showinfo metodu implement edilmeseydi
+ 	// machine class abstract olacaktý
 }
