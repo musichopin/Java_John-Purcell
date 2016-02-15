@@ -34,13 +34,14 @@ public class Java {
 
 		Frog frog1 = new Frog(7, "Freddy");
 		Frog frog2 = new Frog(5, "Roger");
-		// frog1.toString();
 		// toString method is inherited from the object class
 		// which is secretly the parent/super class of the frog class
 
 		System.out.println(frog1);
 		System.out.println(frog2);
 		// frog1.toString() dense output değişmezdi
+		// veya toString() dışında random metod ("xyz()") yaratıp frog1.xyz() dense de sonuç değişmezdi.
+		
 		// when we print an object it tries to invoke the string method to get a
 		// string representation of the object, which is helpful for debugging
 
