@@ -8,7 +8,7 @@ public class Java {
         
         System.out.println(values[0]);
         
-        values[0] = 10; // assigning-initializing values for the array
+        values[0] = 10; // initializing (first assignment) values for the array
         values[1] = 20;
         values[2] = 30;
         
