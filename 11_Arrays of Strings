@@ -5,6 +5,7 @@ public class Java {
         
         // Declare and create array of (references to) strings.
         String[] words = new String[3];
+        // array is an object like string
         
         // Set the array elements (point the references at strings)
         // initialize an array
@@ -20,6 +21,7 @@ public class Java {
         
         // Iterate through an array 
         // (normal) for loop ile array hem print edilebilir hem de initialize/assign edilebilirdi
+        // enhanced for loop ile sadece iterate ediliyor (?)
         for(String fruit: fruits) {
             System.out.println(fruit);
             System.out.println(fruit.length());
