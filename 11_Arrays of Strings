@@ -21,7 +21,7 @@ public class Java {
         
         // Iterate through an array 
         // (normal) for loop ile array hem print edilebilir hem de initialize/assign edilebilirdi
-        // enhanced for loop ile sadece iterate ediliyor galiba (?)
+        // enhanced for loop ile sadece iterate ediliyor (?)
         for(String fruit: fruits) {
             System.out.println(fruit);
             System.out.println(fruit.length());
