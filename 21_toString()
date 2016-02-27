@@ -8,7 +8,7 @@ class Frog {
 		this.name = name;
 	}
 
-	// all objects have object class/class object as their ultimate parent/super class
+	// all objects have object class / class object as their ultimate parent/super class
 	// Object obj = new Object();
 	// obj.toString();
 
