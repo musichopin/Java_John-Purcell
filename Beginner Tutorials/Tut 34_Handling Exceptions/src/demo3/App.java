@@ -11,7 +11,7 @@ public class App {
     	// main metodda excepting handlinge gerek kalmayacaktý
         try {
             openFile();
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) { 
             // PS. This message is too vague : )
             System.out.println("Could not open file");
             // stack trace yazmak da ("e.printStackTrace();") user için kaba olurmuþ
@@ -23,7 +23,7 @@ public class App {
         File file = new File("test.txt");
 
         FileReader fr = new FileReader(file);
-
+        // throw new FileNotFoundException(); dense sonuç yine deðiþmeyecekti
     }
 
 }
