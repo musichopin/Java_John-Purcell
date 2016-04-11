@@ -7,9 +7,12 @@
 // variable (animal) of Animal type through suggestion
 
 // whilist classes in java implicitly inherit from the object super class
-// enum inherits from java.lang.enum
+// Animal enum inherits from java.lang.enum
 public enum Animal { // kws in lower case
 	CAT("Fergus"), DOG("Fido"), MOUSE("Jerry");
+	// Animal: enum/enum class
+	// CAT: enum constant, object
+	// "Fergus": value, argument
 	// even though because it is enum type we cannot make "new Animal" 
 	// we can still pass arguments into the constructor through objects
 
@@ -30,11 +33,3 @@ public enum Animal { // kws in lower case
 		return "This animal is called: " + name;
 	}
 }
-/*
-Starting robot 7
-Robot 7 is thinking.
-ID is: 7
-My name is Robert 7
-
-Battery charging...
-*/
