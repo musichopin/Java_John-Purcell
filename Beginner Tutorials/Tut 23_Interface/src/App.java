@@ -33,7 +33,7 @@ public class App {
         // in the info interface
     }
     
-    private static void outputInfo(Info abc) {
+    private static void outputInfo(Info abc) { // Info abc = mach1; diyormuþuz gibi
     	// we made it static so that it could be directly called by a static method
     	// this method takes a parameter (variable) of type Info
         abc.showInfo();

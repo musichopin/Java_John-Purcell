@@ -20,7 +20,7 @@ public class App {
 		// plant 2 reference variable points to a kind of plant 
 		// since tree is a subclass of plant
 		// plant 2 reference variable points to a Tree object: 
-		// plant2 ---> Tree (Tree object) --- (extends) Plant
+		// (Plant class) plant2 ---> Tree object <--- tree ref variable
 		
 		// Plant plant2 = new Tree();
 		// Plant plant2 = tree; ye göre

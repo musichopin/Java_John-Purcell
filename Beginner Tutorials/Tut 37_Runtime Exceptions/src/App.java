@@ -16,7 +16,7 @@ public class App {
 		// Null pointer exception ....
 		String text = null;
 
-		System.out.println(text.length());
+		System.out.println(text.length()); // try-catch block kullanýlmadan compile edildi ama yürümedi
 
 		// Arithmetic exception ... (divide by zero)
 		int value = 7 / 0;

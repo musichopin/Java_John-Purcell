@@ -29,7 +29,7 @@ public class App {
         // in polymorphism we wud use an object reference variable of a child class type
         // whereas we wud expect an object reference variable of a parent class type
         
-        // Upcasting (polymorphism) -> 2+1 kuralýný uygula
+        // Upcasting (polymorphism) -> 1+1 kuralýný uygula
         Machine machine2 = camera1; // saðdaki Camera yükseltgeniyor
         // alt: Machine machine2 = new Camera();
         // actual object machine2 variable refers to is camera object
