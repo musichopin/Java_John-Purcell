@@ -38,7 +38,7 @@ public class Application {
         // to the constructor of Thread class
         
         thread1.start();
-        thread2.start();
+        thread2.start(); // aynı anda print edilir, zira aynı class'ın farklı instance'ı
     }
 
 }

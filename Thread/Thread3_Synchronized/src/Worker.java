@@ -5,6 +5,8 @@ public class Worker {
     public synchronized void increment() {
     	// only 1 thread can acquire the lock at a time for the Worker object
     	// 2nd thread would have to wait to use the count variable
+        // synchronized kw yerine (thread1.start() tan sonra) thread1.join();
+        // denseydi thread2, thread1'i tamamen bekleyecekti
         count++;
     }
     
