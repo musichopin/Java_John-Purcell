@@ -13,7 +13,7 @@ public class Java {
         System.out.println(info);
         
         // More efficient in terms of memory.
-        StringBuilder sb = new StringBuilder(""); 
+        StringBuilder sb = new StringBuilder(); 
         // StringBuilder object doesn't have to be initialized 
         
         sb.append("My name is Sue.");
