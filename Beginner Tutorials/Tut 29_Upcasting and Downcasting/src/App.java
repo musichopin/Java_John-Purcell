@@ -43,7 +43,11 @@ public class App {
         Machine machine3 = new Camera(); 
         Camera camera2 = (Camera)machine3; // saðdaki Machine indirgeniyor
         camera2.start();
+//     alt:
+//     ((Camera)machine3).start();
         camera2.snap();
+//     machine3 is still reusable after downcasting:
+//     machine3.start();
         
         // Doesn't work bc the actual object is a machine 
         // and objects cannot be changed
