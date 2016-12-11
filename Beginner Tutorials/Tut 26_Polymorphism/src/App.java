@@ -40,6 +40,8 @@ public class App {
 
 		// Another example of polymorphism.
 		doGrow(tree);
+		doGrow(plant2);
+//		plant2 pass edilince de anlam olarak fark olmaz
 	}
 
 	public static void doGrow(Plant plant) {  // Plant plant = tree; diyormuþuz gibi
@@ -54,5 +56,6 @@ public class App {
 /*
 Tree growing
 Leaves shedding.
+Tree growing
 Tree growing
 */
