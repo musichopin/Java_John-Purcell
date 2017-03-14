@@ -10,15 +10,18 @@ public class App {
 	public static void main(String[] args) {
 
 		File file = new File("Java.txt");
-		// file fetches the file, filereader reads the file,
+		// String file = "Java.txt"; yazýnca hata vermedi
+		
+		// file fetches the file (scanner class harici gereksiz)
+		// filereader reads the file
 		// bufferedreader makes the output proper
-
+		
 		BufferedReader br = null;
 		// bufferedreader ý kapatýrken scopeunu geniþletmek için dýþarýda
 		// tanýmlandý
 
-		// filereader exception fýrlatýrsa program catch blocka gidecek
-		// ve bufferedreader deðer alamayacak
+		// filereader exception fýrlatýrsa program catch blocka ve sonrasýnda
+		// finally block'a gidecek ve bufferedreader deðer alamayacak
 		// ve deðeri olmayan bufferedreaderý kapatmaya çalýþacaðýz
 		// bu nedenle bufferedreader initialize edildi
 
@@ -57,7 +60,8 @@ public class App {
 			// unable to read the file
 		} finally {
 			// yukarýdaki exceptionlar throw edilse bile finally block içindeki
-			// kod yürütülür
+			// kod yürütülür. 
+			// amacýmýz exception fýrlatýlsa bile bufferedreader ý kapatmaktýr
 			try {
 				br.close();
 				// we close the file to avoid memory leaks

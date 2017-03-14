@@ -1,5 +1,5 @@
 public class Robot {
-
+	
     private int id;
     
     // Non-static nested classes have access to the enclosing
@@ -55,4 +55,6 @@ public class Robot {
         temp.doSomething();
     }
 }
+
+
  

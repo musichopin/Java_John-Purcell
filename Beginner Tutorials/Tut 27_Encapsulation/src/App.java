@@ -16,7 +16,7 @@ class Plant {
 		return data;
 	}
 
-	// Methods only used in the class itself should
+	// Methods only used the the class itself should
 	// be private or protected.
 	private int calculateGrowthForecast() {
 		return 9;

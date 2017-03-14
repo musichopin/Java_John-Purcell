@@ -12,6 +12,8 @@ public class App {
         
         // Multiple catch blocks
         try {
+        	System.out.println("processing."); 
+        	// exception yakalanmadan önce olduðu için print edilir
             test.run();
         } catch (IOException e) { // e: variable
             e.printStackTrace();
@@ -53,14 +55,18 @@ public class App {
 
 }
 /*
+processing.
+retrieving.
 Couldn't parse command file.
+retrieving.
 java.text.ParseException: Error in command list.
-	at Test.run(Test.java:17)
-	at App.main(App.java:25)
+retrieving.
+	at Test.run(Test.java:19)
+	at App.main(App.java:27)
 java.text.ParseException: Error in command list.
-	at Test.run(Test.java:17)
-	at App.main(App.java:32)
+	at Test.run(Test.java:19)
+	at App.main(App.java:34)
 java.io.FileNotFoundException: File not found
-	at Test.input(Test.java:23)
-	at App.main(App.java:44)
+	at Test.input(Test.java:25)
+	at App.main(App.java:46)
 */

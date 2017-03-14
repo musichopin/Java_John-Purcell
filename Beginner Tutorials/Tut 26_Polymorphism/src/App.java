@@ -21,12 +21,7 @@ public class App {
 		// since tree is a subclass of plant
 		// plant 2 reference variable points to a Tree object: 
 		// (Plant class) plant2 ---> Tree object <--- tree ref variable
-		
-		// Plant plant2 = new Tree();
-		// Plant plant2 = tree; ye göre
-		// override etme gibi bir durum olabilir (?)
 	
-
 		// plant2 references a Tree, so the Tree grow() method is called.
 		// Type of the object that variable refers to determines what actual methods are called
 		plant2.grow();
@@ -35,7 +30,7 @@ public class App {
 		// we need a Tree-type reference (variable) to call tree-specific methods.
 		tree.shedLeaves();
 
-		// ... so this won't work. 
+		// ... so this won't work.
 		// plant2.shedLeaves();
 
 		// Another example of polymorphism.
@@ -47,8 +42,8 @@ public class App {
 	public static void doGrow(Plant plant) {  // Plant plant = tree; diyormuþuz gibi
 		// plant yerine plant1 denebilirdi
 		
-		// Plant yerine Tree dense sonuç deðiþmezdi ama anlam deðiþirdi 
-		// ve shedLeaves metodu da call edilebilirdi  
+		// Plant yerine Tree dense sonuç deðiþmezdi ama anlam deðiþirdi
+		// ve shedLeaves metodu da call edilebilirdi
 		plant.grow();
 	}
 
