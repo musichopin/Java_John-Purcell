@@ -13,7 +13,9 @@ public class Test {
 		// IOException()'ýn run metodunun farklý bir yerinde olduðunu
 		// düþünüyoruz
 		// if statement, while loop vs ile yeri belirlenmiþ olabilir
-
+		System.out.println("retrieving.");
+		// exception fýrlatýlmadan önce olduðu için print edilir
+		
 		throw new ParseException("Error in command list.", 2); // 1
 		// main method tarafýndan run metodu çaðrýldýðýndan 
 		// ParseException fýrlatýldý (?). 

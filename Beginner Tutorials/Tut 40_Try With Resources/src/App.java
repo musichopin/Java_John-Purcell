@@ -16,7 +16,7 @@ public class App {
     public static void main(String[] args) {
         
         try(Temp temp = new Temp()) {
-        	// close metodu da çaðýrmýþ oldu
+        	// close metodu da otomatik çaðýrmýþ oldu
             
         } catch (Exception e) {
             // TODO Auto-generated catch block
